@@ -6712,7 +6712,7 @@ form.newsletter-form .btn {
   background-image: url('../images/demo/work-detail2/related-work3.jpg');
 }
 #contact-intro-slider01 {
-  background-image: url('../images/demo/contact/slider01.jpg');
+  background-image: url('../images/contact.jpg');
 }
 /* blog */
 #blog1-intro-slider01 {
@@ -6744,7 +6744,7 @@ form.newsletter-form .btn {
 }
 /* blog 2 */
 #blog2-intro-slider01 {
-  background-image: url('../images/demo/blog/slider01.jpg');
+  background-image: url('../images/main-blog-image2.jpg');
 }
 #blog2-photo-post1 {
   background-image: url('../images/demo/blog/photo-post1.jpg');
@@ -7535,7 +7535,7 @@ body.dark .inverse .btn-arrow.invert:after {
   background-image: url('../images/demo/services/grid03.jpg');
 }
 #about-minimal-intro-slider01 {
-  background-image: url('../images/demo/about/slider01.jpg');
+  background-image: url('../images/main-about-image.jpg');
 }
 #about-minimal-team-member1 {
   background-image: url('../images/demo/about/team-member1.jpg');
@@ -7619,4 +7619,21 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
+}
+
+
+
+/*Contact Page */
+
+.black {
+  color: black!important;
+}
+
+.contactTextDiv {
+  background: rgba(255,255,255, 0.5);
+  color: black!important;
+  padding-bottom: 3em;
+  margin-top: 10em;
+  font-size: .5em;
+  border: 1px solid black;
 }
