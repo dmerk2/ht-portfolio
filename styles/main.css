@@ -1369,7 +1369,7 @@ footer div[class*="col-"]:last-child:after {
 */
 .intro {
   height: 100%;
-  background-color: #000000;
+  background-color: #ffffff;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -6536,19 +6536,19 @@ form.newsletter-form .btn {
   background-image: url('../images/demo/about-minimal/slider01.jpg');
 }
 #about-minimal-team-member1 {
-  background-image: url('../images/demo/about-minimal/team-member1.jpg');
+  background-image: url('../images/whitley.jpg');
 }
 #about-minimal-team-member2 {
-  background-image: url('../images/demo/about-minimal/team-member2.jpg');
+  background-image: url('../images/dan.jpg');
 }
 #about-minimal-team-member3 {
-  background-image: url('../images/demo/about-minimal/team-member3.jpg');
+  background-image: url('../images/bilal.jpg');
 }
 #about-minimal-photo-team1 {
-  background-image: url('../images/demo/about-minimal/photo-team1.jpg');
+  background-image: url('../images/about-laptop-photo.jpg');
 }
 #about-minimal-photo-team2 {
-  background-image: url('../images/demo/about-minimal/photo-team2.jpg');
+  background-image: url('../images/jquery-book-full.jpg');
 }
 #about-intro-slider01 {
   background-image: url('../images/demo/about/slider01.jpg');
@@ -7538,19 +7538,19 @@ body.dark .inverse .btn-arrow.invert:after {
   background-image: url('../images/main-about-image.jpg');
 }
 #about-minimal-team-member1 {
-  background-image: url('../images/demo/about/team-member1.jpg');
+  background-image: url('../images/whitley.jpg');
 }
 #about-minimal-team-member2 {
-  background-image: url('../images/demo/about/team-member2.jpg');
+  background-image: url('../images/dan.jpg');
 }
 #about-minimal-team-member3 {
-  background-image: url('../images/demo/about/team-member3.jpg');
+  background-image: url('../images/bilal.jpg');
 }
 #about-minimal-photo-team1 {
-  background-image: url('../images/demo/about/photo-team1.jpg');
+  background-image: url('../images/about-laptop-photo.jpg');
 }
 #about-minimal-photo-team2 {
-  background-image: url('../images/demo/about/photo-team2.jpg');
+  background-image: url('../images/jquery-book-full.jpg');
 }
 #bg-home-grid { background-image: url('../images/demo/home/grid0.jpg'); }
 #bg-home-fixed-grid { background-image: url('../images/demo/home-fixed/grid0.jpg'); }
