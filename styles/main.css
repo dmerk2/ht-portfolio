@@ -6322,7 +6322,7 @@ form.newsletter-form .btn {
   left: 8px;
 }
 .twitter-about {
-  height: 796px;
+  height: 335px;
 }
 #about-intro-slider01 .vcenter {
   padding-top: 100px;
@@ -7526,13 +7526,13 @@ body.dark .inverse .btn-arrow.invert:after {
   background-image: url('../images/demo/post/comments4.jpg');
 }
 #services-grid01 {
-  background-image: url('../images/demo/services/grid01.jpg');
+  background-image: url('../images/ecommercePic.jpg');
 }
 #services-grid02 {
-  background-image: url('../images/demo/services/grid02.jpg');
+  background-image: url('../images/seoPic.jpg');
 }
 #services-grid03 {
-  background-image: url('../images/demo/services/grid03.jpg');
+  background-image: url('../images/webDesign.jpg');
 }
 #about-minimal-intro-slider01 {
   background-image: url('../images/main-about-image.jpg');
