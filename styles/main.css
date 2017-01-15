@@ -3234,7 +3234,8 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .team-member .name-member {
   font-size: 16px;
   letter-spacing: 2.5px;
-  text-transform: uppercase;
+  text-transform: uppercase;  
+  border-radius: 50%;
 }
 .team-member .position-member {
   font-size: 13px;
@@ -6537,13 +6538,17 @@ form.newsletter-form .btn {
 }
 #about-minimal-team-member1 {
   background-image: url('../images/whitley.jpg');
+  border: 2px solid black;
+  border-radius: 3em;
 }
 #about-minimal-team-member2 {
   background-image: url('../images/dan.jpg');
+  border: 2px solid black;
+  border-radius: 3em;
 }
-#about-minimal-team-member3 {
+/*#about-minimal-team-member3 {
   background-image: url('../images/bilal.jpg');
-}
+}*/
 #about-minimal-photo-team1 {
   background-image: url('../images/about-laptop-photo.jpg');
 }
