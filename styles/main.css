@@ -540,7 +540,7 @@ button:focus {
   outline: none;
 }
 img {
-  max-width: 100%;
+  max-width: 250px;
   height: auto;
 }
 button {
