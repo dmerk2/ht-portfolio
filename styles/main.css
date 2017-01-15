@@ -5706,9 +5706,9 @@ font-family: 'Raleway', sans-serif;
     margin-bottom: 230px;
   }
 }
-.features-clients {
+/*.features-clients {
   text-align: center;
-}
+}*/
 .features-clients .container {
   max-width: 1350px;
 }
@@ -6324,6 +6324,7 @@ form.newsletter-form .btn {
 }
 .twitter-about {
   height: 380px;
+  max-width: 100%;
 }
 #about-intro-slider01 .vcenter {
   padding-top: 100px;
@@ -6542,7 +6543,7 @@ form.newsletter-form .btn {
   border-radius: 3em;
 }
 #about-minimal-team-member2 {
-  background-image: url('../images/dan.jpg');
+  background-image: url('../images/dan2.jpg');
   border: 2px solid black;
   border-radius: 3em;
 }
