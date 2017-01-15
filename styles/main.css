@@ -3683,6 +3683,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
   margin: 0px auto;
   overflow: hidden;
   max-width: 800px;
+  height: 500px;
 }
 @media (min-width: 1200px) {
   .thumbnails {
@@ -3727,7 +3728,6 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .thumbnails.work2 .thumbnail {
   width: 100%;
   padding: 20px;
-  height: 500px;
   overflow: hidden;
 }
 .thumbnails.work2 .thumbnail img {
