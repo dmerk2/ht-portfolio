@@ -7643,3 +7643,7 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
   font-size: .5em;
   border: 1px solid black;
 }
+
+.highTechLogo {
+  margin-left: 2.3em;
+}
