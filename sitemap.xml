@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/index.html</loc>
+  <lastmod>2017-01-15T19:07:29+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/menu.html</loc>
+  <lastmod>2017-01-15T19:07:29+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/feedback.html</loc>
+  <lastmod>2017-01-15T19:07:29+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/catering.html</loc>
+  <lastmod>2017-01-15T19:07:29+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/passover.html</loc>
+  <lastmod>2017-01-15T19:07:29+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/roshhashana.html</loc>
+  <lastmod>2017-01-15T19:07:29+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/chanukah.html</loc>
+  <lastmod>2017-01-15T19:07:29+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/christmas.html</loc>
+  <lastmod>2017-01-15T19:07:29+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://jerry-and-harveys.herokuapp.com/aboutUs.html</loc>
+  <lastmod>2017-01-15T19:07:29+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+</urlset>
