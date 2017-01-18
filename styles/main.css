@@ -518,6 +518,59 @@ textarea {
 .color-bg-alternative {
   background-color: #FFF199;
 }
+
+/*Pricing Packages*/
+
+table, th, tr, td {
+  border: 1px double black;
+  padding: 3px;
+  color: darkred;
+}
+
+th {
+  font-weight: bold;
+}
+
+.bronze {
+  color: #cd7f32;
+}
+
+.silver {
+  color: silver;
+}
+
+.gold {
+  color: gold;
+}
+
+.priceQuote {
+  background: darkred;
+  color: white;
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+}
+
+#pricing {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding: .7em;
+}
+
+caption {
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: 'FontAwesome';
+  padding-bottom: .3em;
+}
+
+#gaurantees {
+  padding-bottom: .6em;
+  font-size: 1.4em;
+}
+
 html,
 body {
   font-family: 'Dosis', sans-serif;
