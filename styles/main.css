@@ -571,6 +571,12 @@ caption {
   font-size: 1.4em;
 }
 
+.extraOptions th{
+  text-align: center;
+  font-size: 1.1em;
+  color: black;
+}
+
 html,
 body {
   font-family: 'Dosis', sans-serif;
