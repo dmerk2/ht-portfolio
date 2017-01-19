@@ -525,6 +525,7 @@ table, th, tr, td {
   border: 1px double black;
   padding: 3px;
   color: darkred;
+  overflow-y: hidden;
 }
 
 th {
@@ -549,6 +550,15 @@ th {
   border: 1px solid black;
   display: block;
   margin: 0 auto;
+}
+
+.priceQuote:hover {
+  padding: .4em;
+  font-size: 1.1em;
+  background: black;
+  font-weight: bolder;
+  color: green;
+  border-radius: 2.5em;
 }
 
 #pricing {
@@ -7625,6 +7635,7 @@ body.dark .inverse .btn-arrow.invert:after {
 #bg-home-rev-grid { background-image: url('../images/demo/home-revolution/grid0.jpg'); }
 .title-small {
 	text-transform: uppercase;
+  text-align: center;
 }
 .font1 {
     font-family: 'Dosis', sans-serif;
@@ -7704,5 +7715,7 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
 }
 
 .highTechLogo {
-  margin-left: 2.3em;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
 }
