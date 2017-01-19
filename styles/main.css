@@ -520,16 +520,22 @@ textarea {
 }
 
 /*Pricing Packages*/
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
 
 table, th, tr, td {
   border: 1px double black;
   padding: 3px;
   color: darkred;
   overflow-y: hidden;
+  border-collapse: separate;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 th {
   font-weight: bold;
+  color: black;
 }
 
 .bronze {
