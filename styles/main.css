@@ -593,6 +593,13 @@ caption {
   color: black;
 }
 
+.gauranteesList {
+  font-weight: bold;
+  font-size: .8em;
+  font-family: "FontAwesome";
+  display: inline;
+}
+
 html,
 body {
   font-family: 'Dosis', sans-serif;
