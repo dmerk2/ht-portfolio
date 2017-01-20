@@ -297,7 +297,7 @@ ga('send', 'pageview');
                     <div class="table-responsive">
                       <table class="table text-center">
                         <caption>E-Commerce</caption>
-                                                  <thead>
+                          <thead>
                             <tr>
                               <th>FEATURES</th>
                               <th class="bronze"><img src="./images/bronzeStar.jpg" alt="" style="height: 50px; width: 50px;">Bronze Package</th>
@@ -372,8 +372,7 @@ ga('send', 'pageview');
                     </div>
                   </div>
  
-          <div class="voffset50"></div>
-          
+          <div class="voffset50"></div>          
 
             <div class="table-responsive text-center extraOptions" style="margin: 0 auto; display: block; width: 30%;">
               <table class="table">
@@ -418,7 +417,6 @@ ga('send', 'pageview');
                 </ol>
             </div>
 
-            <div class="voffset50"></div>
           <!-- <p class="loadmore big">
             <a id="append" href="#" class="btn rounded border">load more</a>
           </p>
@@ -476,8 +474,7 @@ ga('send', 'pageview');
     <div class="section follow-overicon">
       <div class="container-fluid">
         <div class="row">
-
-          <div class="col-md-4 fadeInUp">
+          <div class="col-md-3 fadeInUp">
             <div class="follow facebook">
               <a href="https://www.facebook.com/High Tech-103908946769334/?ref=aymt_homepage_panel">
                 <i class="fa fa-facebook"></i>
@@ -487,7 +484,7 @@ ga('send', 'pageview');
             </div>                    
           </div>
 
-          <div class="col-md-4 fadeInUp">
+          <div class="col-md-3 fadeInUp">
             <div class="follow twitter">
               <a href="#">
                 <i class="fa fa-twitter"></i>
@@ -497,18 +494,30 @@ ga('send', 'pageview');
             </div>                    
           </div>
 
-          <div class="col-md-4 fadeInUp">
+          <div class="col-md-3 fadeInUp">
             <div class="follow google-plus">
               <a href="#">
                 <i class="fa fa-google-plus"></i>
                 <span class="overicon">google +</span>
-                <p class="onhover">follow us on google plus</p>
+                <p class="onhover">follow us on google+</p>
+              </a>
+            </div>                    
+          </div>
+
+          <div class="col-md-3 fadeInUp">
+            <div class="follow instagram">
+              <a href="#">
+                <i class="fa fa-instagram"></i>
+                <span class="overicon">twitter</span>
+                <p class="onhover">follow us on instagram</p>
               </a>
             </div>                    
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
     
     <footer>
       <div class="container-fluid">
@@ -516,7 +525,7 @@ ga('send', 'pageview');
         <div class="row">
           <div class="col-md-4">
             <div class="voffset30"></div>
-            <img src="images/highTechLogo.jpg" alt="logo">
+            <img src="images/highTechLogo.jpg" alt="logo" class="highTechLogo">
             <div class="voffset20"></div>
             <p>High Tech is a digital agency striving to bring your ideas to life by giving it that extra feel.</p>
           </div>
@@ -539,12 +548,12 @@ ga('send', 'pageview');
             <div class="voffset30"></div>
             <h5 class="title-small">Contact us</h5>
             <div class="voffset20"></div>
-            <p class="contact-link fa fa-envelope-o"><a href="mailto:htdevs@gmail.com">htdevs@gmail.com</a></p>
+            <p class="contact-link fa fa-envelope-o"><a href="mailto:htdevs@gmail.com"> htdevs@gmail.com</a></p>
             <p class="contact-link fa fa-mobile">Primary: <a href="tel:16096130059">1.609.613.0059</a></p>
-            <p class="contact-link fa fa-mobile">Secondary: <a href="tel:19739781686">1.973.978.1686</a></p>
+            <p class="contact-link fa fa-mobile">Secondary: <a href="tel:19739781687">1.973.978.1687</a></p>
             <p class="contact-link fa fa-map-marker">Northern New Jersey 07960</p>
           </div>
-<!--           <div class="col-md-3 col-sm-6">
+          <!-- <div class="col-md-3 col-sm-6">
             <div class="voffset30"></div>
             <h5 class="title-small">Stay in touch!</h5>
             <div class="voffset20"></div>
@@ -555,8 +564,8 @@ ga('send', 'pageview');
               <input type="submit" class="btn btn-alt" value=">">
             </form>
           </div> -->
-        </div> 
-        <div class="voffset30"></div> 
+        </div>
+        <div class="voffset30"></div>
       </div>
       <div class="copyright">
         <div class="voffset40"></div>
@@ -564,6 +573,7 @@ ga('send', 'pageview');
         <div class="voffset40"></div>
       </div>
     </footer>
+
 
 
     <!--[if lt IE 7]>
@@ -588,16 +598,5 @@ ga('send', 'pageview');
 
     <script src="scripts/vendor/bootstrap.js"></script>
     
-  <script>
-  $('#exampleModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget) // Button that triggered the modal
-  var recipient = button.data('whatever') // Extract info from data-* attributes
-  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-  var modal = $(this)
-  modal.find('.modal-title').text('New message to ' + recipient)
-  modal.find('.modal-body input').val(recipient)
-})
-</script>
 </body>
 </html>
