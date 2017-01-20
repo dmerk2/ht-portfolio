@@ -558,12 +558,16 @@ th {
   margin: 0 auto;
 }
 
+.priceQuote a {
+  color: white;
+}
+
 .priceQuote:hover {
   padding: .4em;
   font-size: 1.1em;
   background: black;
   font-weight: bolder;
-  color: green;
+  font-family: 'FontAwesome';
   border-radius: 2.5em;
 }
 
