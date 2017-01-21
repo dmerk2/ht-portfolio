@@ -5473,11 +5473,21 @@ font-family: 'Raleway', sans-serif;
 .content-post .media-body p {
   line-height: 29px;
 }
+
+#form {
+  margin-bottom: 1.3em;
+  margin: 0 auto;
+  max-width: 50%;
+  text-align: center;
+  border: .4em solid black;
+  border-radius: 20px;
+}
+
 .content-post .title-form {
   margin-top: 50px;
   font-size: 20px;
   font-style: italic;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .content-post form {
   padding: 10px 0 0 0;
