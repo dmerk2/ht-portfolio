@@ -5473,6 +5473,8 @@ font-family: 'Raleway', sans-serif;
 .content-post .media-body p {
   line-height: 29px;
 }
+<<<<<<< HEAD
+=======
 
 #form {
   margin-bottom: 1.3em;
@@ -5483,11 +5485,16 @@ font-family: 'Raleway', sans-serif;
   border-radius: 20px;
 }
 
+>>>>>>> 34feac12986d19449c4da9c0fed1e9f661a587a8
 .content-post .title-form {
   margin-top: 50px;
   font-size: 20px;
   font-style: italic;
+<<<<<<< HEAD
+  margin-bottom: 30px;
+=======
   margin-bottom: 20px;
+>>>>>>> 34feac12986d19449c4da9c0fed1e9f661a587a8
 }
 .content-post form {
   padding: 10px 0 0 0;
@@ -7628,7 +7635,11 @@ body.dark .inverse .btn-arrow.invert:after {
   background-image: url('../images/demo/post/comments4.jpg');
 }
 #services-grid01 {
+<<<<<<< HEAD
+  background-image: url('../images/webDevelopment.jpg');
+=======
   background-image: url('../images/webDevPic.jpeg');
+>>>>>>> 34feac12986d19449c4da9c0fed1e9f661a587a8
 }
 #services-grid02 {
   background-image: url('../images/seoPic.jpg');
