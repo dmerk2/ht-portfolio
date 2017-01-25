@@ -7658,17 +7658,13 @@ body.dark .inverse .btn-arrow.invert:after {
   background-image: url('../images/demo/post/comments4.jpg');
 }
 #services-grid01 {
-<<<<<<< HEAD
-  background-image: url('../images/webDevelopment.jpg');
-=======
-  background-image: url('../images/webDevPic.jpeg');
->>>>>>> 34feac12986d19449c4da9c0fed1e9f661a587a8
+  background-image: url('../images/webDevPic.jpg');
 }
 #services-grid02 {
   background-image: url('../images/seoPic.jpg');
 }
 #services-grid03 {
-  background-image: url('../images/ecommerce.jpg');
+  background-image: url('../images/ecomm.jpg');
 }
 #about-minimal-intro-slider01 {
   background-image: url('../images/main-about-image.jpg');
