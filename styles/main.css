@@ -2372,6 +2372,10 @@ footer div[class*="col-"]:last-child:after {
   background-color: #3f729b;
   border-color: #3f729b;
 }
+.follow.pinterest:hover a {
+  background-color: #bd081c;
+  border-color: #bd081c;
+}
 .follow-overicon .container-fluid {
   padding-left: 40px;
   padding-right: 40px;
@@ -4735,6 +4739,25 @@ font-family: 'Raleway', sans-serif;
     margin: 0 20px 20px 0;
   }
   .feed-instagram li:nth-child(3n+0) {
+    margin-right: 0;
+  }
+}
+.feed-pinterest {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .feed-pinterest {
+    text-align: left;
+  }
+}
+.feed-pinterest li {
+  display: inline-block;
+}
+@media (min-width: 1600px) {
+  .feed-pinterest li {
+    margin: 0 20px 20px 0;
+  }
+  .feed-pinterest li:nth-child(3n+0) {
     margin-right: 0;
   }
 }

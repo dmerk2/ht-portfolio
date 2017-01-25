@@ -4,7 +4,7 @@
 
 .rslides {
   margin: 0 auto 40px;
-  }
+}
 
 #slider3 {
   box-shadow: none;
@@ -17,7 +17,6 @@
 #slider3-pager {
   text-align: center;
 }
-
 
 #slider3-pager a {
   display: inline-block;
