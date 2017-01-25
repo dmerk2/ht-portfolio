@@ -17,6 +17,7 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
     <!-- styles -->
     <link rel="stylesheet" href="styles/vendor.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -281,9 +282,20 @@ ga('send', 'pageview');
 
     <!-- Slideshow 3 Pager -->
     <ul id="slider3-pager">
-      <li class="portfolioLink"><a href="#"><img src="images/crypdesigns_thumb.png" alt="thumb" class="noMaxWidthImg"></a></li>
-      <li><a href="#"><img src="images/newscloud_thumb.png" alt="thumb" class="noMaxWidthImg"></a></li>
-      <li><a href="#"><img src="images/picturesque_thumb.png" alt="thumb" class="noMaxWidthImg"></a></li>
+      <li class="portfolioLink"><a href=""><img src="images/crypdesigns_thumb.png" alt="thumb" class="noMaxWidthImg"></a></li>
+      <li><a href=""><img src="images/newscloud_thumb.png" alt="thumb" class="noMaxWidthImg"></a></li>
+      <li><a href=""><img src="images/picturesque_thumb.png" alt="thumb" class="noMaxWidthImg"></a></li>
+      <li><a href=""><img src="" alt="RPS" class="noMaxWidthImg"></a></li>
+      <li><a href=""><img src="" alt="Jerry and Harveys" class="noMaxWidthImg"></a></li>
+    </ul>
+
+    <ul id="sliderLinks">
+      <a href="https://crypdesigns.herokuapp.com/" target="_blank"><button type="button" role="button" ><i class="fa fa-external-link"></i></button></a>
+      <a href="https://news--cloud.herokuapp.com/" target="_blank"><button type="button" role="button" ><i class="fa fa-external-link"></i></button></a>
+      <a href="https://limitless-dawn-11985.herokuapp.com/" target="_blank"><button type="button" role="button" ><i class="fa fa-external-link"></i></button></a>
+      <a href="https://multiplayer-rps.herokuapp.com/" target="_blank"><button type="button" role="button" ><i class="fa fa-external-link"></i></button></a>
+      <a href="https://jerry-and-harveys.herokuapp.com/" target="_blank"><button type="button" role="button"> <i class="fa fa-external-link"></i></button></a>
+
     </ul>
 
 
@@ -296,8 +308,6 @@ ga('send', 'pageview');
             <div class="voffset90"></div>
             <p class="pretitle"></p>
             <div class="voffset10"></div>
-
-            <h2 class="subtitle big">we are extremely dedicated, ambitious and love what we do!</h2>
 
             <h2 class="subtitle big">We are extremely dedicated web developers that love what we do!</h2>
 
@@ -651,6 +661,8 @@ ga('send', 'pageview');
     <script src="scripts/plugins/jquery.countdown/jquery.plugin.min.js"></script>
     <script src="scripts/plugins/jquery.countdown/jquery.countdown.min.js"></script>
     <script src="scripts/plugins/responsiveslides.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/8c9744533c.js"></script>
     <script src="scripts/whitleySlider.js"></script>
 
 
@@ -664,7 +676,9 @@ ga('send', 'pageview');
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpOBt65EwnNVdCJVy78jl3H4qqo0ZBO8&callback=initMap"
     async defer></script>
 
-    <script>
+    <script type="text/javascript">
+
+      $("[data-toggle='popover']").popover();
 
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
