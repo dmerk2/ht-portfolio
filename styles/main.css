@@ -44,7 +44,6 @@ cite,
 code,
 del,
 dfn,
-em,
 img,
 ins,
 kbd,
@@ -886,6 +885,17 @@ font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	text-transform: uppercase;
 }
+
+.title1 {
+  text-shadow: .5px .5px .5px #000;
+  color: red;
+}
+
+.title2 {
+  font-size: 35px!important;
+  color: #000;
+}
+
 @media (min-width: 768px) {
   .title {
     font-size: 52px;
@@ -931,6 +941,11 @@ font-family: 'Raleway', sans-serif;
     font-size: 80px;
   }
 }
+
+.miniTitle { color: #777; font-size: 30px; font-weight: normal; line-height: 60px; margin: 10px 0 20px; text-transform: uppercase; text-shadow: 2px 2px 0 #000, margin: 10px 0 24px; text-align: center; }
+
+
+
 .small {
   font-size: 16px;
   font-weight: 600;
@@ -952,6 +967,8 @@ font-family: 'Raleway', sans-serif;
   line-height: 30px;
    font-family: 'Raleway', sans-serif;
 }
+
+
 .subtitle.invert {
   color: #ffffff;
 }
@@ -1033,6 +1050,12 @@ font-family: 'Raleway', sans-serif;
   font-weight: 400;
   letter-spacing: 4px;
 }
+
+.standout {
+  color: red;
+  font-style: italic;
+}
+
 .autor-signature {
   text-align: center;
   font-size: 15px;
