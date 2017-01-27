@@ -2089,7 +2089,8 @@ footer div[class*="col-"]:last-child:after {
   letter-spacing: 2px;
 }
 .banner-tabs {
-  background-color: #373C42;
+/*  background-color: #373C42;
+*/  background-color: #000;
   color: #ffffff;
   height: auto;
 }
@@ -7808,6 +7809,10 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
   text-align: center;
   max-width: 540px;
   margin: 0 auto;
+}
+
+#sliderLinks li {
+  display: inline;
 }
 
 #sliderLinks button {
