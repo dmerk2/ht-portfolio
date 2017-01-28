@@ -5,15 +5,12 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
   <head>
  
-    <meta name="robots" content="all,follow, index">
-    <meta name="googlebot" content="index,follow,snippet,archive">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact Us</title>
-    <meta name="keywords" content="Contact">
-    <meta name="description" content="High Tech is devoted to you so contact us anytime. Our e-mail address and phone numbers are here.">
+    <title>High Tech Blog</title>
+    <meta name="keywords" content="High Tech Blog">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="author" content="High Tech Developement">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- styles -->
@@ -59,31 +56,24 @@ ga('send', 'pageview');
             <li><a href="services.html">Service</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="packages.html">Packages</a></li>
-            <li><a href="/blog/">blog</a></li>
-            <li class="active"><a href="contact.html">contact</a></li>
+            <li class="active"><a href="./blog">blog</a></li>
+            <li><a href="contact.html">contact</a></li>
           </ul>
         </div>
 
       </nav>
     </header>
-
+    
+    <!-- intro -->
     <div class="intro jIntro">
-      <div class="image-cover" id="contact-intro-slider01">
+      <div class="image-cover menu-bottom" id="blog2-intro-slider01">
         <div class="vcenter text-center">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
-                <div class="contactTextDiv">
-                  <div class="voffset50"></div>
-                  <p class="pretitle invert superbig black">work with us</p>
-                  <div class="voffset80"></div>
-                  <h1 class="primary-title invert black"><strong>or just say hello!</strong></h1>
-                  <div class="voffset80"></div>
-                  <p class="post-primary-title invert black">Now serving</p>
-                  <div class="voffset10"></div>
-                  <p class="subtitle address invert black"><br> All of New Jersey</p>
-
-                </div>
+                <h1 class="primary-title invert">our blog <strong>ideas & insights</strong></h1>
+                <div class="voffset50"></div>
+                <p class="post-primary-title invert">our ideas & insights about how we do stuff</p>
               </div>
             </div>
           </div>
@@ -96,49 +86,128 @@ ga('send', 'pageview');
       <div class="container container-full">
         <div class="row row-no-gutter">
           <div class="col-md-6">
-            <div id="map"></div>
+            <div class="banner blog-2-image" id="blog2-photo-post1"></div>
           </div>
           <div class="col-md-6">
-            <div class="contact-basic">
-              <div class="voffset400"></div>
-              <div class="vcenter text-center">
-                <p class="pretitle">phone</p>
-                <div class="voffset20"></div>
-                <p>Primary: <a href="tel:16096130059">1.609.613.0059</a></p>
-                <p>Secondary: <a href="tel:19739781ß87">1.973.978.1687</a></p>
-                <div class="voffset50"></div>
-                <p class="pretitle">email</p>
-                <div class="voffset20"></div>
-                <p><a href="mailto:htdevs@gmail.com" class="mailto">htdevs@gmail.com</a></p>
-              </div>
-            </div>
-            <div class="contact-form bg-cream">
-              <div class="voffset400"></div>
-              <div class="vcenter text-center">
-                <p class="pretitle">contact</p>
+            <div class="blog-2-text">
+              <div class="vcenter blog-post-content">
+                <div class="blog-post-header">
+                  <div class="blog-post-author"></div>
+                  <p class="blog-post-date">January 10, 2017  /  Craig Buckler</p>
+                </div>
                 <div class="voffset40"></div>
-                <form>
-                  <div class="form-group inline">
-                    <input type="text" class="form-control" id="inputName" placeholder="name">
-                  </div>
-                  <div class="form-group inline">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="email address">
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" rows="3" id="inputMessage" placeholder="message"></textarea>
-                  </div>
-                  <div class="voffset20"></div>
-                  <button type="submit" class="btn btn-arrow">Send message</button>
-                </form>
+                <h1 class="blog-post-title">The Yarn of Yarn</h1>
+                <div class="voffset20"></div>
+                <p class="blog-post-intro">I like npm, and consider it one of the primary reasons for the explosion of Node.js tools. I’ve never experienced too many problems, but I’m not working on projects as sizable as Facebook. Facebook’s engineers released Yarn in October. It’s a new Node.js package manager designed to be faster and more stable than npm. It relies on the npm registry, so should remain fully-compatible. Tim Severien’s Yarn vs npm: Everything You Need to Know describes the benefits Yarn offers. I agree with his conclusion: Although Yarn isn’t a fork, it improves several flaws npm has. Wouldn’t it be cool if npm learned from this and asked Facebook, Google and the other Yarn contributors to help improve npm instead?</p>
+                <div class="voffset40"></div>
+
               </div>
             </div>
+          </div>
+        </div>
+        <div class="row row-no-gutter">
+          <div class="col-md-6">
+            <div class="banner blog-2-image" id="blog2-photo-post2"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="blog-2-text">
+              <div class="vcenter blog-post-content">
+                <div class="blog-post-header">
+                  <div class="blog-post-author"></div>
+                  <p class="blog-post-date">December 19, 2016  /  Azat Mardan</p>
+                </div>
+                <div class="voffset40"></div>
+                <h1 class="blog-post-title">A Tip on Node.js!</h1>
+                <div class="voffset20"></div>
+                <p class="blog-post-intro">Synchronous code does have a (small) place in Node. It’s mostly for writing CLI commands or other scripts not related to web apps. Node developers mostly build web apps, hence they use async code to avoid blocking threads. For example, this might be okay if we are just building a database script, and not a system to handle parallel/concurrent tasks. The difference is whether you are writing concurrent *typically long running) or non-concurrent (short running) systems. As a rule of thumb, always write async code in Node.</p>
+                <div class="voffset40"></div>
+<!--                 <ul class="post-share">
+                  <li>share:</li>
+                  <li><i class="fa fa-facebook"></i> facebook</li>
+                  <li><i class="fa fa-twitter"></i> twitter</li>
+                  <li><i class="fa fa-google-plus"></i> google+</li>
+                  <li><i class="fa fa-instagram"></i> instagram</li>
+                </ul> 
+                  <div class="voffset50"></div>
+                <a href="#" class="readfull"></a> -->
+                <div class="voffset50"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-no-gutter">
+          <div class="col-md-6">
+            <div class="banner blog-2-image" id="blog2-photo-post3"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="blog-2-text">
+              <div class="vcenter blog-post-content">
+                <div class="blog-post-header">
+                  <div class="blog-post-author"></div>
+                  <p class="blog-post-date">November 14, 2016  /  Karen Roberts</p>
+                </div>
+                <div class="voffset40"></div>
+                <h1 class="blog-post-title">Building to Learn</h1>
+                <div class="voffset20"></div>
+
+                <p class="blog-post-intro">Whether you're just getting started on the web, or trying to pick up a new framework, Susan Robertson has a radical idea: build something that interests you. Sure, there are courses and tutorials out there to walk you through it, but a project you're actually excited about will help you solidify those skills and make them easier to recall when you need them most.</p>
+
+                <div class="voffset40"></div>
+<!--                 <ul class="post-share">
+                  <li>share:</li>
+                  <li><i class="fa fa-facebook"></i> facebook</li>
+                  <li><i class="fa fa-twitter"></i> twitter</li>
+                  <li><i class="fa fa-google-plus"></i> google+</li>
+                  <li><i class="fa fa-instagram"></i> instagram</li>
+                </ul> 
+                  <div class="voffset50"></div>
+                <a href="#" class="readfull"></a> -->
+                <div class="voffset50"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-no-gutter">
+          <div class="col-sm-6">
+            <p class="paginationblog oldpost">old posts</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="paginationblog newpost">new posts</p>
           </div>
         </div>
       </div>
     </div>
 
 
-     <!-- connect with us -->
+    <div class="voffset50"></div>
+
+      <!-- form comments -->
+    <div id="form">
+      <p class="title-form text-center">Write a Post!</p>
+      <div class="voffset20"></div>                 
+      <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+      <form class="comments-form">
+        <div class="form-group inline">
+          <input type="text" class="form-control" id="inputName" placeholder="name">
+        </div>
+        <div class="form-group inline">
+          <input type="email" class="form-control" id="inputEmail" placeholder="e-mail">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="3" id="inputMessage" placeholder="message"></textarea>
+        </div>
+        <div class="voffset20"></div>
+        <button type="submit" class="btn btn-arrow">Send message</button>
+      </form>
+      </div>
+      </div>
+    </div>
+
+
+
+    <!-- connect with us -->
     <div class="section">
       <div class="container">
         <div class="row">
@@ -178,10 +247,7 @@ ga('send', 'pageview');
               <li><a href="packages.html">Packages</a></li>
               <li><a href="contact.html">Contact</a></li>
               <!-- <li><a href="work-detail.html">Work Single</a></li> -->
-
-              <li><a href="/blog/">Blog</a></li>
-
-
+              <li><a href="./blog">Blog</a></li>
               <!-- <li><a href="post.html">Blog Detail</a></li> -->
             </ul>
           </div>
@@ -191,14 +257,15 @@ ga('send', 'pageview');
             <div class="voffset20"></div>
             <p class="contact-link fa fa-envelope-o"><a href="mailto:htdevs@gmail.com">htdevs@gmail.com</a></p>
             <p class="contact-link fa fa-mobile">Primary: <a href="tel:16096130059">1.609.613.0059</a></p>
-            <p class="contact-link fa fa-mobile">Secondary: <a href="tel:19739781ß87">1.973.978.1687</a></p>
+            <p class="contact-link fa fa-mobile">Secondary: <a href="tel:19739781686">1.973.978.1686</a></p>
             <p class="contact-link fa fa-map-marker">Serving all of New Jersey</p>
+
           </div>
           <!-- <div class="col-md-3 col-sm-6">
             <div class="voffset30"></div>
-            <h5 class="title-small">Stay in touch!</h5>
+            <h5 class="title-small">Stay in touch</h5>
             <div class="voffset20"></div>
-            <p class="info-newsletter">Sign up for our newsletter to stay up to date</p>
+            <p class="info-newsletter">Sign up for High Tech's newsletter to stay up to date</p>
             <div class="voffset20"></div>
             <form action="mail.php" method="post" id="contactform" class="contact-form">
               <input type="email" id="email" name="email" placeholder="email" class="required email">
@@ -219,7 +286,8 @@ ga('send', 'pageview');
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
+
+
 
 
     <script src="scripts/plugins/jquery.min.js"></script>
@@ -237,45 +305,6 @@ ga('send', 'pageview');
     <script src="scripts/main.js"></script>
 
     <script src="scripts/vendor/bootstrap.js"></script>
-
-    <script>
-
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: {lat: -33.9, lng: 151.2},
-          scrollwheel: false,
-          styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"http://www.instagram.com/high_tech_devse9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-        });
-
-        setMarkers(map);
-      }
-
-      function setMarkers(map) {
-        var image = {
-          url: 'images/map-icon.png',
-          // This marker is 20 pixels wide by 32 pixels high.
-          size: new google.maps.Size(185, 160),
-          // The origin for this image is (0, 0).
-          origin: new google.maps.Point(0, 0),
-          // The anchor for this image is the base of the flagpole at (0, 32).
-          anchor: new google.maps.Point(92, 160)
-        };
-        var shape = {
-          coords: [1, 1, 1, 20, 18, 20, 18, 1],
-          type: 'poly'
-        };
-        var marker = new google.maps.Marker({
-          position: {lat: -33.9, lng: 151.2},
-          map: map,
-          icon: image,
-          shape: shape,
-          title: 'HighTech',
-          zIndex: 1
-        });
-      }
-
-    </script>
-    <script async defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpOBt65EwnNVdCJVy78jl3H4qqo0ZBO8&signed_in=true&callback=initMap"></script>
+    
 </body>
 </html>
