@@ -601,6 +601,7 @@ caption {
   font-size: .8em;
   font-family: "FontAwesome";
   display: inline;
+  padding-right: 1em;
 }
 
 html,
@@ -1442,13 +1443,13 @@ footer div[class*="col-"]:last-child:after {
 .list-menu li a {
   color: #000000;
 }
-.list-menu li:before {
+/*.list-menu li:before {
   content: "_";
   margin-right: 21px;
   position: absolute;
   bottom: 5px;
   left: 0;
-}
+}*/
 .contact-link {
   font-size: 14px;
   letter-spacing: 2.8px;
