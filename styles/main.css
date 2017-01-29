@@ -1918,7 +1918,7 @@ footer div[class*="col-"]:last-child:after {
 .banner {
   text-align: center;
   background-color: black;
-  color: #fff;
+  color: black;
   position: relative;
   overflow: hidden;
   background-size: cover;
