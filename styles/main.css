@@ -7860,13 +7860,22 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
   padding: 0 2em 0 2em;
 }
 
-/*Responsive services page*/
+/*Responsive services & packages pages*/
+/*@media (min-width: 768px) {
+  .packagesSpacingDiv {
+    display: none;
+  }
+}*/
+
 @media (max-width: 768px) {
   .servicesIntroText {
     top: 45%!important;
   }
   .extraOptions {
     width: 100%;
+  }
+  .primary-title strong.work {
+    top:20%!important;
   }
 }
 
@@ -7877,6 +7886,7 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
   .primary-title strong.work {
     font-size: 1em!important;
     line-height: 35px!important;
+    top: 0!important;
   }
   .navbar-brand img {
     height: 20px!important;
@@ -7927,3 +7937,5 @@ ul#slider3-pager li img {
 .servicesText p {
   margin: 0 2em 0 2em;
 }
+
+/*responsive packages page*/
