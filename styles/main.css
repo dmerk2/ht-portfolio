@@ -7912,3 +7912,9 @@ ul#slider3 li img {
 ul#slider3-pager li img {
   max-width: 540px;
 }
+
+
+/*responsive services*/
+.vcenter h4 {
+  margin-top: 40px;
+}
