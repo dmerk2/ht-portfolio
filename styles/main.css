@@ -7915,6 +7915,15 @@ ul#slider3-pager li img {
 
 
 /*responsive services*/
-.vcenter h4 {
-  margin-top: 40px;
+.servicesText {
+  overflow: auto;
+  padding: 3em;
+}
+
+.servicesText h4 {
+  margin-top: 5em;
+}
+
+.servicesText p {
+  margin: 0 2em 0 2em;
 }
