@@ -2147,6 +2147,18 @@ footer div[class*="col-"]:last-child:after {
   letter-spacing: 3px;
   padding: 0 7px 9px 7px;
 }
+#guaranteesTitle {
+  color: darkred;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 0 7px 9px 7px;
+}
+#guaranteesTitle:hover {
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
 .banner-tabs .list-horizontal-links li:after,
 .banner-tabs .carousel-tabs li:after {
   display: none;
