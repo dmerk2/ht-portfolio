@@ -680,7 +680,7 @@ font-family: 'Raleway', sans-serif;
   .primary-title strong.work {
     letter-spacing: 4px;
     line-height: 47px;
-    font-size: 38px;
+    font-size: 1.2em;
   }
 }
 .primary-title strong.work span.border {
@@ -5545,16 +5545,11 @@ font-family: 'Raleway', sans-serif;
   border-radius: 20px;
 }
 
->>>>>>> 34feac12986d19449c4da9c0fed1e9f661a587a8
 .content-post .title-form {
   margin-top: 50px;
   font-size: 20px;
   font-style: italic;
-<<<<<<< HEAD
   margin-bottom: 30px;
-=======
-  margin-bottom: 20px;
->>>>>>> 34feac12986d19449c4da9c0fed1e9f661a587a8
 }
 .content-post form {
   padding: 10px 0 0 0;
@@ -7851,4 +7846,58 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
 /*priority*/
 .prioritySection {
   background-color: black!important;
+}
+
+
+/*about -- values*/
+.about-values {
+  padding: 0 2em 0 2em;
+}
+
+/*Responsive services page*/
+@media (max-width: 768px) {
+  .servicesIntroText {
+    top: 45%!important;
+  }
+}
+
+@media (max-width: 425px) {
+  .servicesIntroText {
+    top: 40%!important;
+  }
+  .primary-title strong.work {
+    font-size: 1em!important;
+    line-height: 35px!important;
+  }
+  div.extraOptions {
+    width: 100%!important;
+  }
+}
+
+@media (max-width: 320px) {
+  .servicesIntroText {
+    top: 33%!important;
+  }
+  .primary-title strong.work {
+    font-size: 1em!important;
+    line-height: 35px!important;
+  }
+}
+
+
+/*Responsive slider*/
+ul#slider3-pager {
+  width: 540px;
+}
+
+#sliderLinks {
+  width: 540px;
+}
+
+ul#slider3 li img {
+  max-width: 540px;
+}
+
+ul#slider3-pager li img {
+  max-width: 540px;
 }
