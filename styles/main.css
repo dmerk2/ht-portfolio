@@ -2591,24 +2591,24 @@ form.contact-form input[type=submit] {
   background-color: #ffffff;
 }
 .about-minimal-icons {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 200px;
 }
 @media (min-width: 768px) {
   .about-minimal-icons {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    /*padding-top: 150px;*/
+    padding-bottom: 200px;
   }
 }
 @media (min-width: 1600px) {
 	.about-minimal-icons {
-		padding-top: 200px;
+		/*padding-top: 200px;*/
     	padding-bottom: 200px;
 	}
 }
 @media (min-width: 2200px){
   .about-minimal-icons {
-    padding-top: 300px;
+    /*padding-top: 300px;*/
     padding-bottom: 280px;
   }
 }
@@ -7845,4 +7845,10 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
 #sliderLinks:nth-child(2) {
   padding-left: 30px;
   margin-left: 30px;
+}
+
+
+/*priority*/
+.prioritySection {
+  background-color: black!important;
 }
