@@ -590,6 +590,12 @@ caption {
   font-size: 1.4em;
 }
 
+.extraOptions {
+  margin: 0 auto;
+  display: block;
+  width: 30%;
+}
+
 .extraOptions th{
   text-align: center;
   font-size: 1.1em;
@@ -7859,6 +7865,9 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
   .servicesIntroText {
     top: 45%!important;
   }
+  .extraOptions {
+    width: 100%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -7869,10 +7878,12 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
     font-size: 1em!important;
     line-height: 35px!important;
   }
-  div.extraOptions {
-    width: 100%!important;
+  .navbar-brand img {
+    height: 20px!important;
+    width: 100px;
   }
 }
+
 
 @media (max-width: 320px) {
   .servicesIntroText {
