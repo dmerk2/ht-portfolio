@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+
+  <url>
+       <loc>http://www.hightechdevs.com/blog/</loc>
+       <lastmod>2017-02-02T07:28:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>http://www.hightechdevs.com/blog/xmlrpc.php?rsd</loc>
+       <lastmod>2017-02-02T07:28:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>http://www.hightechdevs.com/blog/wp-includes/wlwmanifest.xml</loc>
+       <lastmod>2017-02-02T07:28:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>http://www.hightechdevs.com/blog/2017/01/22/hello-world/</loc>
+       <lastmod>2017-02-02T07:28:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>http://www.hightechdevs.com/blog/author/admin/</loc>
+       <lastmod>2017-02-02T07:28:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>http://www.hightechdevs.com/blog/2017/01/</loc>
+       <lastmod>2017-02-02T07:28:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>http://www.hightechdevs.com/blog/category/uncategorized/</loc>
+       <lastmod>2017-02-02T07:28:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+</urlset>
