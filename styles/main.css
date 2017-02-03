@@ -679,6 +679,7 @@ input {
     line-height: 87px;
   }
 }
+
 .primary-title strong.work {
   letter-spacing: 17px;
   line-height: 89px;
@@ -780,6 +781,7 @@ input {
     letter-spacing: 5.5px;
     line-height: 40px;
   }
+  
 }
 .post-primary-title.invert {
   color: #ffffff;
@@ -7861,11 +7863,11 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
 }
 
 /*Responsive services & packages pages*/
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   .packagesSpacingDiv {
     display: none;
   }
-}*/
+}
 
 .jIntro {
   overflow: hidden;
