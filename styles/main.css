@@ -1552,8 +1552,7 @@ footer div[class*="col-"]:last-child:after {
   }
 }
 .intro #owl-main-text {
-  height: 140px;
-  height: 166px;
+  height: 100%;
 }
 .intro #owl-main-text .owl-wrapper-outer {
   height: 100%;
