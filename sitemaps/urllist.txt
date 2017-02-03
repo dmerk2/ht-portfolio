@@ -1,7 +1,0 @@
-http://www.hightechdevs.com/blog/
-http://www.hightechdevs.com/blog/xmlrpc.php?rsd
-http://www.hightechdevs.com/blog/wp-includes/wlwmanifest.xml
-http://www.hightechdevs.com/blog/2017/01/22/hello-world/
-http://www.hightechdevs.com/blog/author/admin/
-http://www.hightechdevs.com/blog/2017/01/
-http://www.hightechdevs.com/blog/category/uncategorized/
