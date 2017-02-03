@@ -1,44 +1,55 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<script data-x-lastpass="">
-(function(){var c=0;if("undefined"!==typeof CustomEvent&&"function"===typeof window.dispatchEvent){var a=function(a){try{if("object"===typeof a&&(a=JSON.stringify(a)),"string"===typeof a)return window.dispatchEvent(new CustomEvent("lprequeststart",{detail:{data:a,requestID:++c}})),c}catch(f){}},b=function(a){try{window.dispatchEvent(new CustomEvent("lprequestend",{detail:a}))}catch(f){}};"undefined"!==typeof XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.send&&(XMLHttpRequest.prototype.send= function(c){return function(f){var d=this,e=a(f);e&&d.addEventListener("loadend",function(){b({requestID:e,statusCode:d.status})});return c.apply(d,arguments)}}(XMLHttpRequest.prototype.send));"function"===typeof fetch&&(fetch=function(c){return function(f,d){var e=a(d),g=c.apply(this,arguments);if(e){var h=function(a){b({requestID:e,statusCode:a&&a.status})};g.then(h)["catch"](h)}return g}}(fetch))}})(); (function(){if("undefined"!==typeof CustomEvent){var c=function(a){if(a.lpsubmit)return a;var b=function(){try{this.dispatchEvent(new CustomEvent("lpsubmit"))}catch(k){}return a.apply(this,arguments)};b.lpsubmit=!0;return b};window.addEventListener("DOMContentLoaded",function(){if(document&&document.forms&&0<document.forms.length)for(var a=0;a<document.forms.length;++a)document.forms[a].submit=c(document.forms[a].submit)},!0);document.createElement=function(a){return function(){var b=a.apply(this, arguments);b&&"FORM"===b.nodeName&&b.submit&&(b.submit=c(b.submit));return b}}(document.createElement)}})();
-</script>
-<!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com 
--->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 <url>
-<loc>http://www.hightechdevs.com/</loc>
-<lastmod>2017-01-21T00:51:21+00:00</lastmod>
-<changefreq>daily</changefreq>
+  <loc>http://www.hightechdevs.com/</loc>
+  <lastmod>2017-02-03T13:25:44+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>http://www.hightechdevs.com/index.html</loc>
-<lastmod>2017-01-21T00:51:21+00:00</lastmod>
-<changefreq>daily</changefreq>
+  <loc>http://www.hightechdevs.com/index.html</loc>
+  <lastmod>2017-02-03T13:25:44+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.hightechdevs.com/services.html</loc>
-<lastmod>2017-01-21T00:51:21+00:00</lastmod>
-<changefreq>daily</changefreq>
+  <loc>http://www.hightechdevs.com/services.html</loc>
+  <lastmod>2017-02-03T13:25:44+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.hightechdevs.com/about.html</loc>
-<lastmod>2017-01-21T00:51:21+00:00</lastmod>
-<changefreq>daily</changefreq>
+  <loc>http://www.hightechdevs.com/about.html</loc>
+  <lastmod>2017-02-03T13:25:43+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.hightechdevs.com/packages.html</loc>
-<lastmod>2017-01-21T00:51:21+00:00</lastmod>
-<changefreq>daily</changefreq>
+  <loc>http://www.hightechdevs.com/packages.html</loc>
+  <lastmod>2017-02-03T13:25:44+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.hightechdevs.com/blog</loc>
-<lastmod>2017-01-21T00:51:21+00:00</lastmod>
-<changefreq>daily</changefreq>
+  <loc>http://www.hightechdevs.com/blog/</loc>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.hightechdevs.com/contact.html</loc>
-<lastmod>2017-01-21T00:51:21+00:00</lastmod>
-<changefreq>daily</changefreq>
+  <loc>http://www.hightechdevs.com/contact.html</loc>
+  <lastmod>2017-02-03T13:25:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.hightechdevs.com/blog/2017/01/22/hello-world/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.hightechdevs.com/blog/author/admin/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.hightechdevs.com/blog/category/uncategorized/</loc>
+  <priority>0.51</priority>
 </url>
 </urlset>

@@ -1,1 +1,4 @@
-Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.semrush.com/bot.html)
+User-Agent: *
+Disallow: 
+
+Sitemap: http://www.hightechdevs.com/sitemap.xml
