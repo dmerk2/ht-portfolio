@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="canonical" href="http://www.hightechdevs.com/about.html" />
-  <meta name="robots" content="noindex, nofollow" />
+  <meta name="robots" content="index, nofollow" />
   <meta name="keywords" content="about">
   <meta name="author" content="High Tech Developement" />
     <title>About Us</title>
@@ -304,13 +304,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="col-md-4">
             <div class="voffset30"></div>
-            <h5 class="title-small">Contact us</h5>
-            <div class="voffset20"></div>
-            <p class="contact-link fa fa-envelope-o"><a href="mailto:htdevs@gmail.com"> htdevs@gmail.com</a></p>
-            <p class="contact-link fa fa-mobile">Primary: <a href="tel:16096130059">1.609.613.0059</a></p>
-            <p class="contact-link fa fa-mobile">Secondary: <a href="tel:19739781687">1.973.978.1687</a></p>
-
-            <p class="contact-link fa fa-map-marker">Morris Plains, New Jersey 07950</p>
+              <h5 class="title-small">Contact us</h5>
+              <div class="voffset20"></div>
+              <div itemscope itemtype="http://schema.org/LocalBusiness">
+              <p class="contact-link fa fa-envelope-o"><a href="mailto:htdevs@gmail.com">htdevs@gmail.com</a></p>
+              <p class="contact-link fa fa-mobile">Primary: <a href="tel:16096130059" itemprop="telephone">1.609.613.0059</a></p>
+              <p class="contact-link fa fa-mobile">Secondary: <a href="tel:19739781687" itemprop="telephone">1.973.978.1687</a></p>
+              <p class="contact-link fa fa-map-marker" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <span itemprop="streetAddress">6 Averell Dr</span>
+              <span itemprop="postalCode">07950</span>
+              <span itemprop="addressLocality">Morris Plains</span>,
+              <span itemprop="addressRegion">NJ</span></p>
+            </div>
           </div>
           <!-- <div class="col-md-3 col-sm-6">
             <div class="voffset30"></div>
